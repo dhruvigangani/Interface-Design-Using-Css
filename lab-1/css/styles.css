@@ -1,0 +1,34 @@
+
+body {
+    background-color: #ffffff;
+    line-height: 1.4;
+  }
+  
+  #page {
+    width: 70%;
+    background-color: white;
+    margin: 50px auto;
+    padding: 5%;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Helvers', sans-serif;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  p {
+    font-weight: bold;                                  
+  }
+  /* Multi-column layout
+  -------------------------------------------------- */
+  main {
+    column-count: 3;
+  }
+  
+  main p:first-child {
+    margin-top: 0;
+  }
+  
